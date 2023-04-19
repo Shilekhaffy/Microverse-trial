@@ -53,9 +53,90 @@
   text-align: center;
   color: white;
   text-decoration: solid;
-  
+  padding: 20px 10px;
 }
 
 #projects {
   background-color: #45567D;
+}
+
+
+.project-tile a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.project-tile a  p {
+  text-align: center;
+}
+
+.project-tile {
+  width: 30%;
+  background-color: #45567D;
+}
+
+.project-tile img {
+  width: 100%;
+}
+
+#projects-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#profile-link {
+  display: inline-block !important;
+}
+
+#contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  color: white;
+}
+
+#contact h1 {
+  font-size: 70px;
+}
+
+#contact span {
+  font-weight: 100;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.socialmedia {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.socialmedia a {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.5s ease-in-out all;
+  text-decoration: none;
+  color: white;
+  padding: 15px 10px;
+}
+
+.socialmedia a:hover {
+  transform: translateY(20px);
+}
+
+footer {
+  padding: 30px 5px;
+  display: block;
+  background-color: #000000;
+  border-top: red solid 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: white;
 }
