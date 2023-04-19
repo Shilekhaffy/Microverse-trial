@@ -6,10 +6,56 @@
 
 #welcome-section {
   height: 100vh;
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #242527;
+  color: white;
+ 
+  text-align: center;
+}
+
+#welcome-section h1 {
+  font-weight: bold;
+  font-size: 60px !important;
+  text-align: center;
+}
+
+#welcome-section span {
+  display: block;
+  color: rgb(216, 93, 93);
+  font-weight: 100;
+  font-style: italic;
+  font-size: 25px;
 }
 
 #navbar {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+#navbar a {
+  display: inline-block;
+  color: white !important;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+#navbar a:hover {
+  background-color: rgb(76, 76, 76);
+}
+
+#projects h1 {
+  font-weight: bold;
+  font-size: 40px !important;
+  text-align: center;
+  color: white;
+  text-decoration: solid;
+  
+}
+
+#projects {
+  background-color: #45567D;
 }
